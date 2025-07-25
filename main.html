@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+
+            <img src="data:image/png;base64,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"
+                alt="">
+            <h1>Pokedex App</h1>
+
+            <form>
+                <input type="text" id="Pokemon">
+                <button type="submit" id="submitPoke">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="pokemon">
+            <h1 id="yourPokePick"></h1>
+            <div id="picBox"></div>
+
+            <div class="type_weight">
+                <h3 id="type"></h3>
+                <h3 id="weight"></h3>
+            </div>
+
+            <h4 id="abilitiesHeader"></h4>
+            <div id="abilities">
+
+            </div>
+        </div>
+
+        <div class="PokeDisplay" id="PokeDisplay">
+            <div class="Stats">
+                <li id="hp"></li>
+                <li id="attack"></li>
+                <li id="defense"></li>
+                <li id="sAttack"></li>
+                <li id="sDefense"></li>
+                <li id="speed"></li>
+            </div>
+
+            <p id="pokeMoves"></p>
+        </div>
+
+
+
+    </div>
+
+    <script src="apiFetch.js"></script>
+</body>
+
+</html>

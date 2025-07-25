@@ -1,0 +1,76 @@
+/* use . for classes and # for id's */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+}
+
+.header select {
+    font-size: 1rem;
+}
+
+.pokemon {
+    flex: 2;
+    position: center;
+    text-align: center;
+}
+
+#pokeImage {
+    width: 200px;
+    height: auto;
+}
+
+.type_weight {
+    flex-wrap: wrap;
+    position: center center;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#type {
+    padding-right: 50px;
+    font-size: large;
+}
+
+#weight {
+    padding-left: 50px;
+}
+
+
+.PokeDisplay {
+    background-color: #e8eaf6;
+    padding: 60px 45px;
+}
+
+.Stats {
+    list-style-type: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    font-size: large;
+}
