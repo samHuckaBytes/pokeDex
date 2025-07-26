@@ -1,2 +1,2 @@
 # pokeDex
-This app makes an api request from pokeapi.co to retrieve data for any pokemon the user chooses.
+This app makes an api request from pokeapi.co to retrieve data for any pokemon the user chooses. This is my first JavaScript project I've done outside of the coding bootcamp. My goal was to write a script that can pull json data from an api and to use methods inherint to arrays such as the .map() method. I chose pokemon simply because pokeapi.co is FREE to use and the json looked extremely challenging, but in the end it was worth it because I had a ton of fun writing this code! 
